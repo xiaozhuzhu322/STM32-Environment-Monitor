@@ -55,7 +55,7 @@ text
 
 ## 演示视频
 
-[点击观看演示视频](https://www.bilibili.com/video/BV1xxxxxx)
+点击观看：[STM32环境监测系统 - 实机演示](https://www.bilibili.com/video/BV18W7D66EQe/)
 
 ## 串口数据示例
 
