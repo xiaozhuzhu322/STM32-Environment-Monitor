@@ -45,8 +45,6 @@ PC_Tool/        # Python 上位机
 ``` 
 
 text
-## 上位机效果
-
 ### 正常状态（光照充足，曲线绿色）
 ![正常状态](docs/pc_screenshot_normal.png)
 
