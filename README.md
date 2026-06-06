@@ -21,15 +21,18 @@
 
 ## 硬件接线
 
-| 模块 | STM32 引脚 |
-|------|-----------|
-| 光敏传感器 AO | PA0 |
-| DHT11 DATA | PA6 |
-| OLED SCL/SDA | PB8/PB9 |
-| 蜂鸣器 | PB13 |
-| 按键 PB1/PB11 | PB1/PB11 |
-| LED | PC13 |
-| 串口 TX/RX | PA9/PA10 |
+| 模块 | STM32 引脚 | 说明 |
+|------|-----------|------|
+| 光敏传感器 AO | PA0 | 模拟输入 |
+| DHT11 DATA | PA6 | 单总线，需 4.7kΩ 上拉 |
+| OLED SCL | PB8 | I2C 时钟 |
+| OLED SDA | PB9 | I2C 数据 |
+| 蜂鸣器 | PB13 | 低电平触发 |
+| 按键 PB1 | PB1 | 增加阈值 |
+| 按键 PB11 | PB11 | 减少阈值 |
+| LED | PC13 | 报警/心跳指示 |
+| 串口 TX | PA9 | 接 USB转TTL 的 **RX** |
+| 串口 RX | PA10 | 接 USB转TTL 的 **TX** |
 
 > DHT11 的 DATA 引脚需要 4.7kΩ 上拉电阻
 
