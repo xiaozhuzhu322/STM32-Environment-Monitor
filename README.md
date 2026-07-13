@@ -77,6 +77,9 @@ text
 - **嵌入式**：C语言、ADC、I2C、单总线、Flash
 - **上位机**：Python + PySerial + Matplotlib
 
+## 许可证
+
+本项目采用 MIT 许可证，详情请见 [LICENSE](LICENSE) 文件。
 ## 作者
 
 [李宜万]  
